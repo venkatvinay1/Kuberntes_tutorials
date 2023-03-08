@@ -2,6 +2,8 @@
 
 ## Commands used in kubernetes
 
+### Interacting with Pods
+
 -- kubectl get nodes 
 
 -- kubectl get pod podname
@@ -16,4 +18,8 @@
 
 -- kubectl run nginx --image=nginx:latest
 
--- 
+-- kubectl get -h
+
+-- kubectl run nginx --image=nginx --dry-run=client -o yaml > pods.yaml
+
+-- kubectl apply -f pods.yaml
