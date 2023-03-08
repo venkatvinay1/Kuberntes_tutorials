@@ -30,11 +30,25 @@
 
 -- kubectl delete configmap name_of_configmap
 
--- kubectl create configmap vinay --from-literal=user=vinayvenkat --from-literal=pwd=1234
+-- kubectl create configmap vinay --from-literal=user=vinayvenkat --from-literal=pwd=1234 (from literal)
 
 -- kubectl describe configmap vinay
 
--- 
+-- touch user.txt
+
+-- nanao user.txt
+
+-- touch pass.txt
+
+-- nano pass.txt
+
+-- kubectl create configmap hello --from-file=user.txt --from-file=pass.txt (from a file)
+
+-- kubectl apply -f cm.yaml (from a yaml file)
+
+
+
+
 
 
 
