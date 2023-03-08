@@ -30,4 +30,15 @@
 
 -- kubectl delete configmap name_of_configmap
 
--- kubectl 
+-- kubectl create configmap vinay --from-literal=user=vinayvenkat --from-literal=pwd=1234
+
+-- kubectl describe configmap vinay
+
+-- 
+
+
+
+
+
+
+
