@@ -7,3 +7,5 @@
 
 --kubectl describe pod podname
  
+ --kubectl get pod -o wide 
+ 
