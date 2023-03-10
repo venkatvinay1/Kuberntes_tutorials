@@ -6,6 +6,10 @@
 
 -- kubectl get nodes 
 
+-- kubetctl create -h 
+
+-- kubectl create deployment nginx-depl --image=nginx 
+
 -- kubectl get pod podname
 
 -- kubectl describe pod podname
@@ -46,9 +50,19 @@
 
 -- kubectl apply -f cm.yaml (from a yaml file)
 
+### Getting into Secrets``
 
+-- kubectl get secrets
 
+-- kubectl create secret generic hello --from-literal=usernanme=vinay --from-literal=password=abcd
 
+-- kubectl get secret hello -o jsonpath='{.data}'
+
+-- kubectl create secret generic helloworld --from-file=user.txt --from-file=password.txt 
+
+-- kubectl get secret helloworld -o jsonpath='{.data}'
+
+-- kubectl apply -f cm.yaml
 
 
 
