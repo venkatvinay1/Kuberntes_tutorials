@@ -64,6 +64,14 @@
 
 -- kubectl apply -f cm.yaml
 
+-- kubectl exec -it iginx-depl-666764dc4-h2zr4 -- bin/bash
+
+-- kubectl apply -f filenaame
+
+-- kubectl delete -f filename
+
+-- 
+
 
 
 
