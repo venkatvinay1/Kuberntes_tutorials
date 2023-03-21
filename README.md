@@ -70,6 +70,8 @@
 
 -- kubectl delete -f filename
 
+## Commands for Docker
+
 -- 
 
 
